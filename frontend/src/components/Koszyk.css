@@ -1,0 +1,134 @@
+.koszyk-wrapper {
+  max-width: 680px;
+  margin: 48px auto;
+  padding: 0 40px;
+}
+
+.koszyk-title {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: -0.3px;
+  margin-bottom: 32px;
+}
+
+.koszyk-pusty {
+  text-align: center;
+  padding: 80px 0;
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+.koszyk-pusty a {
+  display: inline-block;
+  margin-top: 16px;
+  color: var(--text);
+  font-size: 13px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.koszyk-lista {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--bg-card);
+  margin-bottom: 24px;
+}
+
+.koszyk-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.koszyk-item:last-child {
+  border-bottom: none;
+}
+
+.koszyk-item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.koszyk-item-name {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.koszyk-item-ilosc {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.koszyk-item-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.koszyk-item-cena {
+  font-size: 14px;
+  font-weight: 500;
+  min-width: 80px;
+  text-align: right;
+}
+
+.koszyk-item-usun {
+  padding: 6px 12px;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 12px;
+  font-family: var(--font);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.koszyk-item-usun:hover {
+  border-color: var(--text);
+  color: var(--text);
+}
+
+.koszyk-podsumowanie {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-top: 1px solid var(--border);
+}
+
+.koszyk-suma-label {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.koszyk-suma {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.koszyk-cta {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  background: var(--accent);
+  color: var(--accent-text);
+  border: none;
+  border-radius: var(--radius);
+  font-size: 14px;
+  font-family: var(--font);
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  margin-top: 8px;
+}
+
+.koszyk-cta:hover {
+  opacity: 0.85;
+}
