@@ -1,2 +1,2 @@
-# Ebiznes_Serwer
-Zadanie 7 z ebiznesu aplikacja serwerowa
+# Ebiznes_Klient
+Zadanie 7 z ebiznesu aplikacja kliencka
